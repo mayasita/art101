@@ -10,6 +10,10 @@ div {
   font: white;
   font-family: copperplate;
 }
-img {
+#eggplant {
+  width: 500px;
+}
+
+#roshambo {
   width: 500px;
 }
