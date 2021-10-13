@@ -1,3 +1,25 @@
 #html-homepage {
   width: 500px;
 }
+
+#intro {
+  background-color: purple;
+  width: 900px;
+  min-height: 350px;
+  padding: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border: dotted 20px yellow;
+  font-size: 20px;
+}
+
+#labs {
+  background-color: green;
+  width: 900px;
+  min-height: 350px;
+  padding: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border: dotted 20px yellow;
+  font-size: 20px;
+}

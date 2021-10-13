@@ -1,0 +1,15 @@
+div {
+  background-color: #aa80bd;
+  width: 900px;
+  min-height: 30px;
+  padding: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border: dotted 20px #a6e3b8;
+  font-size: 20px;
+  font: white;
+  font-family: copperplate;
+}
+img {
+  width: 500px;
+}

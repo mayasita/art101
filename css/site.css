@@ -1,3 +1,38 @@
 #portrait {
   width: 500px;
 }
+p {
+  color:white;
+}
+h1 {
+  color:white;
+}
+h2 {
+  color:white;
+}
+ul {
+  color:white;
+}
+#introduction {
+  background-color: purple;
+  width: 900px;
+  min-height: 350px;
+  padding: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border: dotted 20px yellow;
+  font-size: 20px;
+
+}
+
+#assignments {
+  background-color: purple;
+  width: 900px;
+  min-height: 350px;
+  padding: 80px;
+  margin: auto;
+  margin-top: 50px;
+  border: dotted 20px yellow;
+  font-size: 20px;
+  font: white;
+}
