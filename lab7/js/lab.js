@@ -4,7 +4,7 @@
  *
  **/
 
-// sortUserName - function that will take user unput to arrange and output their sortUserName
+// sortUserName - function that will take user input to arrange and output their sortUserName
 function sortUserName() {
    var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
    console.log("userName =" + userName);
