@@ -8,7 +8,7 @@
 //add event listener to button
 $("button.snap").click(function(){
 //toggle class special within div of section
-  $("challenge").toggleClass("beep");
+  $("#challenge").toggleClass("beep");
 });
 
 //add event listener to button
@@ -20,5 +20,5 @@ $("button.crackle").click(function(){
 //add event listener to button
 $("button.pop").click(function(){
 //toggle class special within div of section
-  $("result").toggleClass("bop");
+  $("#result").toggleClass("bop");
 });
