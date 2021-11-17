@@ -7,6 +7,7 @@
 
 //add event listener to button
 $("button.snap").click(function(){
+console.log("yello");
 //toggle class special within div of section
   $("#challenge").toggleClass("beep");
 });

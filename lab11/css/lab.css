@@ -1,3 +1,18 @@
+.beep {
+  background-color: black;
+  border: 30px;
+}
+
+.boop {
+  background-color: black;
+  border: 5px;
+}
+
+.bop {
+  background-color: black;
+  border: 70px;
+}
+
 div {
   background-color: #d4b5e8;
   width: 1300px;
@@ -15,24 +30,4 @@ img {
 }
 body {
   background-color: black;
-}
-
-output {
-  min-height: 50px;
-  padding: 50px;
-}
-
-.beep {
-  background-color: black;
-  border: 30px;
-}
-
-.boop {
-  background-color: black;
-  border: 5px;
-}
-
-.bop {
-  background-color: black;
-  border: 70px;
 }
