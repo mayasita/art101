@@ -1,0 +1,18 @@
+#content {
+  background-color: #d4b5e8;
+  width: 1300px;
+  min-height: 20px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border: double 15px #1a5421;
+  font-size: 20px;
+  color: white;
+  font-family: copperplate;
+}
+img {
+  margin: auto;
+}
+body {
+  background-color: black;
+}
