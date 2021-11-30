@@ -1,0 +1,31 @@
+#content {
+  background-color: #cfbb04;
+  width: 1300px;
+  min-height: 20px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border: double 25px #4f0b8f;
+  font-size: 20px;
+  color: white;
+  font-family: copperplate;
+}
+img {
+  margin: auto;
+  width: 600px;
+}
+body {
+  background-color: black;
+}
+#output {
+  background-color: #cfbb04;
+  width: 1300px;
+  min-height: 20px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border: double 25px #4f0b8f;
+  font-size: 20px;
+  color: white;
+  font-family: copperplate;
+}
