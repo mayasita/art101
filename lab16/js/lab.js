@@ -5,11 +5,11 @@
   **/
 
 //create variable to store ajax function within
-
+var comicObj = {};
   // Using the core $.ajax() method
   $.ajax({
       // The URL for the request (from the api docs)
-      url: "https://imgs.xkcd.com/comics/barrel_cropped_(1).jpg",
+      url: "https://xkcd.com/1/info.0.json",
       // The data to send (will be converted to a query string)
       // Whether this is a POST or GET request
       type: "GET",
@@ -20,6 +20,15 @@
       success: function(data) {
           // do stuff
           console.log(data);
+          comicObj = data;
+          console.log(comicObj);
+          $("#imgTitle").html(comicObj.title);
+          var imgUrl = comicObj.img;
+          var imgTag = "<img src=" + imgUrl + ">";
+          var altText = comicObj.alt
+          $("#comic").html(imgTag);
+          $("imgUrl").html(comicObj.img);
+          $("#altText").html(comicObj.alt);
       },
       // What we do if the api call fails
       error: function (jqXHR, textStatus, errorThrown) {
